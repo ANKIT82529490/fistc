@@ -1,0 +1,12 @@
+const fs = require('fs');
+
+function readDataFromJsonFile(filePath) {
+  // Read the JSON file
+  const data = fs.readFileSync(filePath, 'utf8');
+
+  // Parse the JSON data
+  const jsonData = JSON.parse(data);
+
+  // Return the JSON data
+  return jsonData;
+}
