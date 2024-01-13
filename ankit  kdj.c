@@ -1,4 +1,4 @@
-#include<studiio.h>
+   #include<studiio.h>
 
 int main() {
 int a=22;
